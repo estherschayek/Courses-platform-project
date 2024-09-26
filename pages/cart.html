@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קורסים אונליין עגלת לימוד</title>
+    <link rel="icon" type="image/x-icon" href="../image/homepicture.jpeg">
+	<link rel="stylesheet" href="../assets/cart.css">
+	<link href="
+	https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css
+	" rel="stylesheet">
+</head>
+<body id="cart">
+	<head>
+		<div id="navbar" class="container">
+
+			<div class="sonnavbar" id="firstsonnavbar">
+				<div class="itemnavbar" id="one"><a href="../projectEstherS.html" class="home">לחזרה לעמוד הבית</a></div>
+			</div>
+			<div>
+				<h1>קורסים אונליין</h1>
+			</div>
+			<div calss="sonnavbar" id="logo">
+				<p >EstherSchayek</p>
+				<p>אסתר סחייק.פיתוח מערכות ואתרים.</p>
+			</div>
+		</div>
+            
+    </head>
+   
+    <main>
+    <div class="container">
+		<!--  Shopping cart table wrapper  -->
+		<div id="shopping-cart">
+			<div class="txt-heading">
+				<h1>עגלת לימוד</h1>
+			</div>
+			<a  id="btnEmpty">ביטול כל ההזמנה</a>
+			<table class="tbl-cart" cellpadding="10" cellspacing="1" id="cartContent">
+				<thead>
+					<tr>
+						<th>שם הקורס</th>
+						<th class='text-right' width="10%">מחיר קורס בודד</th>
+						<th class='text-right' width="5%">כמות</th>
+						<th class='text-right' width="10%">מחיר כולל</th>
+					</tr>
+				</thead>
+				<!--  Cart table to load data on "add to cart" action -->
+				<tbody id="cartTableBody">
+				</tbody>
+				<tfoot>
+					<tr>
+						<td class="text-right">ס"כ לתשלום וס"כ הקורסים שהוזמנו:</td>
+						<td id="itemCount" class="text-right" colspan="2">ס"כ הקורסים:</td>
+						<td id="totalAmount" class="text-right"></td>
+					</tr>
+				</tfoot>
+			</table>
+			<div><a href="../pages/payment.html"><button id="payment">למעבר לתשלום</button></a></div>
+		</div>
+		<div id="returnbuttons">
+			    <div>
+				<button><a href="../pages/coursims.html"><img src="../image/course.svg" id=""></a><p>לבחירת קורס נוסף</p></button>
+				</div>
+				<div>
+				<button><a href="../pages/inscription.html"><img src="../image/registration.svg" id=""></a><p>להרשמה</p></button>
+				</div>
+				<div>
+				<button id="printList"><img src="../image/print.svg" ><p>להדפסת רשימת הקורסים </p></button>	
+				</div>
+		</div>
+	</div>
+    </main>
+		
+		
+		
+
+        <script type="text/javascript" src="../assets/coursims.js"></script>
+		<script src="
+		https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js
+		"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תשלום</title>
+    <link rel="icon" type="image/x-icon" href="../image/homepicture.jpeg">
+    <link rel="stylesheet" href="../assets/payment.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css
+    " rel="stylesheet">
+</head>
+<body id="payment">
+    <div id="popup_page_overlay" class="stop" >
+		
+       <div id="popup_wrap" class="stop" >
+
+                <form id="step1GoPay" >
+                    <h3>אם הנך רשום למערכת הכנס שם משתמש וסיסמה</h3>
+                    <label for="username">שם משתמש*:</label>
+                    <input type="text" id="username" name="username">
+                    <span class="errors" id="use"></span>
+                    <br>
+                   
+
+                    <label for="pw">סיסמה*:</label>
+                    <input type="password" id="pw" name="pw">
+                    <span class="errors" id="epw"></span>
+                    <br>
+
+                    <button type="submit" id="pay">לתשלום</button>
+                    <span class="errors" id="none"></span>
+                    <br>
+
+                    <a href="../pages/inscription.html"><h3>למעבר לרישום</h3></a>
+                </form>
+        </div>
+        
+    </div> 
+
+   
+        <div id="navbar" class="container">
+        
+            <div class="sonnavbar" id="firstsonnavbar">
+                <div class="itemnavbar" id="one"><a href="../projectEstherS.html">לחזרה לעמוד הבית</a></div>
+                <div class="itemnavbar" id="one"><a href="../pages/coursims.html">לבחירת קורס נוסף </a></div>
+            </div>
+            <div>
+                <h1>תשלום</h1>
+            </div>
+            <div calss="sonnavbar" id="logo">
+                <p >EstherSchayek</p>
+                <p>אסתר סחייק.פיתוח מערכות ואתרים.</p>
+            </div>
+        </div>
+        <div calss="container" id="pagePayCont">
+            <div class="txt-heading">
+                
+            </div>
+            <div class="containerPayment">
+
+            </div>
+        </div>
+            
+    
+
+  
+    <script type="text/JavaScript" src="../assets/coursims.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js
+    "></script>
+</body>
+</html>

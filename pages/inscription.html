@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה</title>
+    <link rel="icon" type="image/x-icon" href="../image/homepicture.jpeg">
+    <link rel="stylesheet" href="../assets/inscription.css">
+    <link href="
+	https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css
+	" rel="stylesheet">
+</head>
+<body id="inscriptionForm">
+
+    <head>
+        <div id="navbar" class="container">
+        
+            <div class="sonnavbar" id="firstsonnavbar">
+                <div class="itemnavbar" id="one"><a href="../projectEstherS.html">לחזרה לעמוד הבית</a></div>
+                <div class="itemnavbar" id="one"><a href="../pages/coursims.html">לבחירת קורס</a></div>
+            </div>
+            <div>
+                <h1>הרשמה </h1>
+            </div>
+            <div calss="sonnavbar" id="logo">
+                <p >EstherSchayek</p>
+                <p>אסתר סחייק.פיתוח מערכות ואתרים.</p>
+            </div>
+        </div>
+            
+    </head>
+    <main>
+    <div class="container">
+        <div id="insccontainer">
+            
+            <div class="inscson" id="myself">
+                <ul>
+                    <li><p>בסיעתא דישמיא</p></li>
+                    <li><p>אצלינו ההצלחה שלך לא מוגבלת...</p></li>
+                    <li><img src="../image/clock.svg"></li>
+                    <li><div id="clock"></div></li>
+                    <li><div id="date1"></div></li>
+                    <li><div id="date2"></div></li>
+                    <li><div id="tfi"></div></li>
+                    <li><div id="final"></div></li>
+                    <li><div id="tfiend"></div></li>
+                    
+                </ul>
+            </div>
+            <div class="inscson" id="inscme" class="formContainer">
+                    <h2>רוצה להירשם למערכת וליהיות חלק מההצלחה שלנו!</h2>
+                    <h3>נהדר! הרשם עכשיו! הרישום הינו חינם ומזכה אותך ב10% הנחה ברכישת קורסים ובהטבות נוספות מידי חודש</h3>
+                <form name="inscForm" method="post" id="inscform" action="#" novalidate>
+                    
+                    <label for="name" id="name1" >שם פרטי:*(שם משתמש)</label>
+                    <input type="text" id="name" name="name" placeholder="name" required>
+                    <span class="errors" id="ename"></span>
+                     </br>
+
+                    <label for="fname" id="name1" >שם משפחה:*</label>
+                    <input type="text" id="fname" name="fname" placeholder="name" required>
+                    <span class="errors" id="efname"></span>
+                    <br>
+    
+                    <label for="phone" id="phone2" max="10">מספר טלפון:*</label>
+                    <input type="tel" id="phone" name=phone placeholder="phone" required>
+                    <span class="errors" id="ephone"></span>
+                    <br>
+
+                    <label for="identity" id="phone2" max="9">מספר ת"ז:*</label>
+                    <input type="text" id="identity" name="identity" placeholder="תז-9 ספרות" required>
+                    <span class="errors" id="eidentity"></span>
+                    <br>
+
+                    <fieldset>
+                        <legend>רמתך הלימודית:*</legend>
+                        <div class="radiotofes" id="level">
+                          <label for="level1">יסודי</label>
+                          <input type="radio" id="yesodi" name="level" value="yesodi" required />
+                          
+                          <label for="level2">תיכון</label>
+                          <input type="radio" id="tihon" name="level" value="tihon" required/>
+                          
+                          <label for="level3">בגרות מלאה</label>
+                          <input type="radio" id="bac" name="level" value="bac" required/>
+
+                          <label for="level4">תואר ראשון</label>
+                          <input type="radio" id="licence" name="level" value="licence" required/>
+                          
+                          <label for="level5">תואר שני</label>
+                          <input type="radio" id="master" name="level" value="master" required/>
+                           
+                        </div>
+                        
+                      </fieldset>
+                      <span class="errors" id="elevel"></span>
+                      </br>
+                    
+                    <fieldset>
+                        <legend>שפת הקורס המועדפת עליך:*</legend>
+                        <div class="radiotofes" id="languages">
+                          <label for="language1">עברית</label>
+                          <input type="radio" id="lang1" name="language" value="hebreu" required/>
+                          
+
+                          <label for="language2">אנגלית</label>
+                          <input type="radio" id="lang2" name="language" value="english" required/>
+                          
+
+                          <label for="language3">צרפתית</label>
+                          <input type="radio" id="lang3" name="language" value="french" required/>
+                          
+                        </div>
+                        
+                      </fieldset>
+                      <span class="errors" id="elang"></span>
+                    <br>
+
+                    <fieldset>
+                        <legend>מין:*</legend>
+                        <div class="radiotofes" id="min">
+                          <label for="min1">זכר</label>
+                          <input type="radio" id="men" name="gender" value="men" required/>
+                          
+
+                          <label for="min2">נקבה</label>
+                          <input type="radio" id="women" name="gender" value="women" required/>
+                         
+                        </div>
+                        
+                    </fieldset>
+                    <span class="errors" id="egenre"></span>
+                    <br>
+
+
+    
+                    <label for="emailf" id="email1" >כתובת מייל:*</label>
+                    <input name="emailf" type="email" id="email11" placeholder="כתובת במייל שלך..." name="email1" required>
+                    <span class="errors" id="efemail"></span>
+
+                    <label for="emailsec" id="email2" >כתובת מייל:*</label>
+                    <input name="emailsec" type="email" id="email22" placeholder="הזן שוב את כתובת המייל" name="email2" required>
+                    <span class="errors" id="esecemail"></span>
+
+                    </span><br>
+
+                    <label for="pw1">בחר סיסמה*:<img src="../image/eyeCheck.svg" alt="Show password" id="eyeShow" ></label>
+                    <input type="password" id="pw1" name="pw1">
+                    <span class="errors" id="epass1"></span>
+
+                    <label for="pw2">אימות סיסמה*:</label>
+                    <input type="password" id="pw2" name="pw2">
+                    <span class="errors" id="epass2"></span>
+                    <br>
+
+    
+                    <label for="subject" id="tmessage" >הודעה:</label>
+                    <textarea type="message" cols="132" rows="5" id="subject" name="subject" placeholder="message"></textarea>
+                    <br>
+
+
+    
+                    <button type="submit" id="btn" value="submit">צור קשר</button><br>
+                    <img src="../image/print.svg" id="printForm">
+                    <button><a href="../pages/payment.html">למעבר לתשלום</a></button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</main>
+    <script type="text/javascript" src="../assets/coursims.js"></script>
+   
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js
+    "></script>
+</body>
+</html>

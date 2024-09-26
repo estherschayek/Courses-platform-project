@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>רשימת קורסים אונליין</title>
+    <link rel="icon" type="image/x-icon" href="../image/homepicture.jpeg">
+    <link rel="stylesheet" href="../assets/coursims.css">
+</head>
+<body id="coursimsMain">
+<head>
+<div id="navbar" class="container">
+
+    <div class="sonnavbar" id="firstsonnavbar">
+        <div class="itemnavbar" id="one"><a href="../projectEstherS.html" class="home">לחזרה לעמוד הבית</a></div>
+    </div>
+    <div>
+        <h1>קורסים אונליין</h1>
+    </div>
+    <div calss="sonnavbar" id="logo">
+        <p >EstherSchayek</p>
+        <p>אסתר סחייק.פיתוח מערכות ואתרים.</p>
+    </div>
+</div>
+    
+</head>
+<main>
+    <div id="popup_page_overlay" class="close" >
+		
+        <div id="popup_wrap" class="stop">
+			<img src="../image/usercancel.svg" class="close">
+            <div>10% הנחה לנרשמים עד י"א תמוז</div>
+			<div class="hurry">מספר הימים שנשארו להרשמה:</div>
+			<a href="pages/inscription.html" class="close"><button>להרשמה</button></a>
+        </div>
+        <button class="close">סגור</button>
+    </div>
+    <div id="home" id="home2">
+       <img id="imghome" src="../image/homepicture.jpeg">
+    </div>
+<div class="container">
+    <form id="filterCourse">
+        <div class="customSelect">
+        <label for="course" id="nname">שם הקורס</label>
+        <select name="course" id="name" >
+            <option value="" disabled selected hidden>בחר קורס</option>
+            <option class="chgbeige" value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+            <option value="sql">SQL</option>
+            <option value="c#">C#</option>
+            <option value="oop">OOP</option>
+            <option value="react">REACT</option>
+            <option value="java">JAVA</option>
+            <option value="pyton">PYTON</option>
+            <option value="jquery">jQUERY</option>
+            <option value="php">PHP</option>
+            <option value="angular">ANGULAR</option>
+        </select>
+       </div>
+       <div class="customSelect">
+        <label for="level">רמת הקורס</label>
+        <select name="level" id="level">
+            <option value=""disabled selected hidden >בחר רמה</option>
+            <option value="begin">רמת מתחילים</option>
+            <option value="advance">רמת מתקדמים</option>
+            <option value="advancePlus">רמת מתקדמים פלוס</option>
+        </select>
+        </div>
+        <div class="customSelect">
+        <label for="type">סוג השיעור</label>
+        <select name="type" id="type">
+            <option value="" disabled selected hidden >בחר סוג שיעור</option>
+            <option value="group">שיעור בקבוצה</option>
+            <option value="privat">שיעור פרטני</option>
+        </select>
+        </div>
+        <button type="submit" id="subFilter">בחר</button>
+
+    </form>
+</div>
+
+<div class="container">
+    <div id="bigFormationContainer">  
+        <div id="options">
+            <div name="HTML"><a href="#"class="oneOpCourse" >HTML</a></div>
+            <div name="CSS"><a href="#" class="oneOpCourse">CSS</a></div>
+            <div name="JS"><a href="#" class="oneOpCourse">JS</a></div>
+            <div name="SQL"><a href="#" class="oneOpCourse" >SQL</a></div>
+            <div name="C#"><a href="#" class="oneOpCourse">C#</a></div>
+            <div name="OOP"><a href="#" class="oneOpCourse">OOP</a></div>
+            <div name="REACT"><a href="#" class="oneOpCourse">REACT</a></div>
+            <div name="JAVA"><a href="#" class="oneOpCourse">JAVA</a></div>
+            <div name="PYTON"><a href="#" class="oneOpCourse">PYTON</a></div>
+            <div name="jQuery"><a href="#" class="oneOpCourse">jQuery</a></div>
+            <div name="PHP"><a href="#" class="oneOpCourse">PHP</a></div>
+            <div name="ANGULAR"><a href="#" class="oneOpCourse">ANGULAR</a></div>
+
+        </div>
+       
+        <div id="productsContainer">
+    
+
+        </div>
+       <div id="chart">
+            <div><h1>סיכום הקורסים שהוזמנו</h1></div>
+        <div id="resum">
+            <div>
+                <button><a href="../pages/inscription.html"><img src="../image/registration.svg"></a>להרשמה</button>   
+            </div>
+            <div>
+                <button><a href="../pages/payment.html"><img src="../image/visa.svg"></a>למעבר לתשלום</button>   
+            </div>
+            <div>
+                <button id="sumToPay"><p>ס"כ ההזמנה</p><a href="../pages/cart.html"><img src="../image/biggerCart.svg" id=""></a><p id="sumPrice"></p></button>
+                
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+</main>
+<footer>
+
+</footer>
+
+<script type="text/javascript" src="../assets/coursims.js"></script> 
+</body>
+</html>
