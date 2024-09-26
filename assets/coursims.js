@@ -1058,7 +1058,7 @@ let formation = `<div class=single>
 <p>לתשלום</p>
 </div>
 <div>
-<button><a href="../projectEstherS.html"><img src="../image/returnHome.svg" id=""></a></button>
+<button><a href="../index.html"><img src="../image/returnHome.svg" id=""></a></button>
 <p>לחזרה לעמוד הבית</p>
 </div>
 <div>
@@ -1989,7 +1989,7 @@ function timerfun() {
           let confirmed = confirm("תעובר לעמוד הבית במידה ולא תמשיך בתשלום-האם ברצונך להמשיך בתשלום ?");
           if (!confirmed) {
             //  redirect to home page
-            location.href = '../projectEstherS.html';
+            location.href = '../index.html';
             return;
           }
           //Stop the timer
